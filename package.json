@@ -1,0 +1,13 @@
+{
+  "name": "chicken-hash-miner",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CPU miner for Chicken Hash (Robinhood Chain)",
+  "main": "miner/mine.js",
+  "scripts": {
+    "mine": "node miner/mine.js"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0"
+  }
+}
